@@ -1,0 +1,32 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+staticfiles/
+media/
+
+# Node
+node_modules/
+dist/
+
+# Data (large, downloaded)
+data/raw/
+data/processed/
+
+# Model caches
+.fastembed_cache/
+.cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
